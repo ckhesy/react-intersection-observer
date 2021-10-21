@@ -94,6 +94,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react": "^17.0.30",
     "ts-loader": "^9.2.6"
   },
   "jest": {
