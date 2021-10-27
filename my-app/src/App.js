@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import ReactInterSectionObserver from './components/ react-intersection-observer'
+import ReactInterSectionObserver from './components/react-intersection-observer';
+// import RenderWhenActive from './components/renderWhenActive';
+import TestCase from './components/testCase'
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
         </a> */}
       </header>
       <ReactInterSectionObserver /> 
+      <TestCase />
     </div>
   );
 }
