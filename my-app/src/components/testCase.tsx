@@ -1,5 +1,5 @@
 import React, { useRef, useState, useCallback, useMemo } from 'react';
-
+// https://note.youdao.com/ynoteshare/index.html?id=a3c1ef11f18a210d8fe929183cf049dc&type=note&_time=1635326278458
 const Child = (props: any) => {
   const {name:{text = '111' ,color = 'red'} = {}, onClick} = props;
   console.log('子组件update')

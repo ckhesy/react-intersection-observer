@@ -3,6 +3,7 @@ import './App.css';
 import ReactInterSectionObserver from './components/react-intersection-observer';
 // import RenderWhenActive from './components/renderWhenActive';
 import TestCase from './components/testCase'
+import TargetDom from './components/targetDom.tsx'
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
         </a> */}
       </header>
       <ReactInterSectionObserver /> 
-      <TestCase />
+      {/* <TestCase /> */}
+      <TargetDom />
     </div>
   );
 }
