@@ -79,3 +79,5 @@ IntersectionObserverEntry对象提供目标元素的信息，一共有六个属�
 - intersectionRatio：目标元素的可见比例，即intersectionRect占boundingClientRect的比例，完全可见时为1，完全不可见时小于等于0
 
 #### 进阶  react-intersection-observer
+
+test
